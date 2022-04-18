@@ -30,8 +30,6 @@ Voilà donc, je sais pas je m'appelle **Jean-Baptiste**
 Voilà *que dire d'autre*...
 
 ---
-Altgr+7
-
 ```php
 <?php
 for(i=0; i<n;i++) {
