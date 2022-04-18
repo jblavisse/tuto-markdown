@@ -1,57 +1,54 @@
-# Bienvenue les gens! (H1)
 
-## Sous-titre 1 (h2)
+# ECF Organisme de Formation ECO Web
 
-fsdjdfisdfjdsildd jkssdf jsd fjsd fkl
-kdfsodsfksdoksdko
+Application conçue dans le cadre de ma formation chez Studi.
 
-## Sous-titre 2 (h2)
+## Environment Variables
 
-lorem ipsum dolor sit amet
+To run this project, you will need to add the following environment variables to your .env file
 
----
+`API_KEY`
 
-### Sous-sous-titre (h3)
-
-* Pizza
-* Jambon
-* Fromage
-
-1. Faire le ménage
-2. Faire la vaisselle
-3. Truc à faire*
-
----
-
-Voilà donc, je sais pas je m'appelle **Jean-Baptiste**
+`ANOTHER_API_KEY`
 
 
+## Tester en local
 
-Voilà *que dire d'autre*...
+Cloner le projet
 
----
-```php
-<?php
-for(i=0; i<n;i++) {
-    echo i;
-}
+```bash
+  git clone https://github.com/jblavisse/ECF-ecoweb
 ```
 
----
+Aller dans le répertoire du projet
 
-![Un très beau poney](img/poney-rose.jpg)
+```bash
+  cd ECF-ecoweb
+```
 
----
+Installer les dépendances
 
-Voir ici la page [Wikipédia](https://fr.wikipedia.org/wiki/Poney)
+```bash
+  npm install
+```
 
----
+Démarrer
 
-| nom | prénom |
-| --- | --- |
-| Jean | Jacques |
-| John | Doe |
-| Pierre | Jean |
+```bash
+  npm run start
+```
 
 
-> Seuls les poissons suivent le cours de la rivière - Proverbe Chinois
+## Deploiement
+
+Pour déployer le projet sur Heroku...
+
+```bash
+  npm run deploy
+```
+
+
+## Auteur
+
+- [@jblavisse](https://www.github.com/octokatherine)
+
